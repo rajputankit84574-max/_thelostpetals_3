@@ -13,5 +13,13 @@ urlpatterns = [
     path('services/', views.services, name="services"),
     path('collections/', views.collections, name="collections"),
     path('contact/', views.contact, name="contact"),
+
+
+    path('spring/', views.spring, name='spring'),
+    path('summer/', views.summer, name='summer'),
+    path('fall/', views.fall, name='fall'),
+    path('winter/', views.winter, name='winter'),
+    path('party/', views.party, name='party'),
+
 ]
 
