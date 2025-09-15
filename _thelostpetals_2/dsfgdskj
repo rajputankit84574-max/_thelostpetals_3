@@ -1,0 +1,30 @@
+            <div class="">
+              <div class="service-card" >
+                <div class="service-icon">
+                  <i class="fas fa-gift"></i>
+                </div>
+                <h3>Gift Packages</h3>
+              </div>
+              <p class="" >
+                Let us help you find the perfect gift. We offer beautifully
+                wrapped gift packages for birthdays, holidays, and other special
+                events.
+              </p>
+            </div>
+
+            path('', views.home, name="home"),  
+    path('home/', lambda request: redirect('home')),  # redirect /home/ → /
+    path('about-us/', views.aboutus, name="aboutus"),
+    path('services/', views.services, name="services"),
+    path('collections/', views.collections, name="collections"),
+    path('contact/', views.contact, name="contact"),
+
+
+  github
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rajputankit84574-max/dsfgsdi.git
+git push -u origin main
