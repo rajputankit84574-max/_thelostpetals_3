@@ -316,13 +316,15 @@ nav .active a{
   margin: 0 auto;
 }
 
-.collection-filters {
+/* .collection-filters {
   display: flex;
   justify-content: center;
   gap: 1rem;
   margin-bottom: 2rem;
   flex-wrap: wrap;
-}
+} */
+
+ 
 
 .filter-btn {
   background: white;
